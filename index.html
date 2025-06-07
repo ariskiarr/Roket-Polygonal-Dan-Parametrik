@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Roket 3D</title>
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <h2>Model 3D Roket Mainan</h2>
+  <div id="output"></div>
+  <script>
+    async function main() {
+      let pyodide = await loadPyodide();
+      let response = await fetch("main.py");
+      let code = await response.text();
+      await pyodide.runPythonAsync(code);
+    }
+    main();
+  </script>
+</body>
+</html>
