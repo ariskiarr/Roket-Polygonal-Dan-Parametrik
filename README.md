@@ -1,10 +1,10 @@
-# 🚀 Projek 3D Roket Mainan - [Nama] - [NIM]
+#  Projek 3D Roket Mainan - [Ariski] - [232410101015]
 
 Proyek ini merupakan implementasi pemodelan objek 3D menggunakan bahasa pemrograman **Python** dan divisualisasikan langsung di browser menggunakan **Plotly** dan **Pyodide**.
 
 ---
 
-## 🎯 Deskripsi Model
+##  Deskripsi Model
 
 Objek yang dimodelkan adalah **roket mainan**, dibangun dari **komposisi 3 bentuk dasar 3D**:
 
@@ -14,7 +14,7 @@ Objek yang dimodelkan adalah **roket mainan**, dibangun dari **komposisi 3 bentu
 
 ---
 
-## 🛠 Transformasi yang Diterapkan
+##  Transformasi yang Diterapkan
 
 Setiap bentuk dasar mengalami minimal dua transformasi:
 
