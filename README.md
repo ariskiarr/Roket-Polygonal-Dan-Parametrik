@@ -1,4 +1,4 @@
-#  Projek 3D Roket Mainan - [Ariski] - [232410101015]
+#  Projek 3D Roket Mainan -
 
 Proyek ini merupakan implementasi pemodelan objek 3D menggunakan bahasa pemrograman **Python** dan divisualisasikan langsung di browser menggunakan **Plotly** dan **Pyodide**.
 
